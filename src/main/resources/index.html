@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Java Web Server Test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .mid
+            {
+                position: absolute;
+                left: 50%;
+                top: 10%;
+                width: 60%;
+                transform: translate(-50%, -10%);
+            }
+            #t{
+                font-weight: bold;
+                font-size: 3em;
+                font-family: DeJaVu Sans;
+                text-align: left;
+                line-height: 2em;
+            }
+            #c{
+                text-align: left;
+                font-family: monospace;
+                font-size: 1.4em;
+                /*line-height: 0 !important;*/
+                white-space: pre-wrap;
+                
+                width: 50%;
+                color: #fefefe;
+                background: #333;
+                padding: 2%;
+                border-radius: 8px;
+            }
+            
+        </style>
+            
+    </head>
+    <body>
+    <center>
+        <div id="t" class="mid">
+            <span> Hello, Web!</span> <br>
+            <span> Req: ${method} ${loc} ${ver}</span> <br>
+            <!--<div id="c">${req}</div>-->
+        </div>
+    </center>
+    </body>
+</html>
